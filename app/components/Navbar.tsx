@@ -10,7 +10,8 @@ const links  = [
     {name: "Home", href: "/"},
     {name: "Men", href: "/Men"},
     {name: "Women", href: "/Women"},
-    {name: "Teens", href: "/Teens"}
+    {name: "Teens", href: "/Teens"},
+    {name: "Training", href: "/Training"}
 ]
 export default function Navbar (){
     const pathname = usePathname()

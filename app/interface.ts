@@ -17,3 +17,10 @@ export interface fullProduct {
     description: string;
     price_id: string;
 }
+
+export interface videoProduct {
+    _id: string;
+    title: string;
+    videoUrl: string;
+    description: string;
+}
