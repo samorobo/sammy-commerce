@@ -1,3 +1,5 @@
+
+
 import Image from "next/image";
 import { client, urlFor } from "../lib/sanity";
 import Link from "next/link";
@@ -65,6 +67,12 @@ export default async function Hero() {
             className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
           >
             Women
+          </Link>
+          <Link
+            href="/Teens"
+            className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-200"
+          >
+            Teens
           </Link>
           <Link
             href="/Teens"
